@@ -12,6 +12,8 @@ firefox -foreground -fullscreen -private  \
 
 # ensure fullscreen start, because firefox has no arg for it
 sleep 5s
+WID=$(xdotool search firefox | head -n1)
+xdotool windowactivate $WID
 xdotool key F11
 
 while true
