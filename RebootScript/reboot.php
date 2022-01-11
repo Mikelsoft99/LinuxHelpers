@@ -16,7 +16,7 @@ if(isset($_POST['action'])) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<h3>TV Wanderbilder</h3>
+<h3>Klick den Button um Neustart zu machen</h3>
 
 <?php
 if($msg != '') {
